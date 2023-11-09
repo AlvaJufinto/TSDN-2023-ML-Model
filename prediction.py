@@ -1,9 +1,7 @@
 import joblib
-import os
-import re
 import requests
 
-# #pkl
+# pkl
 phish_model = open('phishing.pkl', 'rb')
 phish_model_ls = joblib.load(phish_model)
 
